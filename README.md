@@ -1,5 +1,5 @@
 # RoBERTa based Spam Message Detection
-Spam messages frequently carry malicious links or phishing attempts posing significant threats to both organizations and their users. With an investment in our RoBERTa-based spam message detection system, organizations can greatly enhance their security infrastructure. Our system effectively detects and filters out spam messages, adding an extra layer of security that safeguards organizations against potential financial losses, legal consequences, and reputational harm.
+Spam messages frequently carry malicious links or phishing attempts posing significant threats to both organizations and their users. By choosing our RoBERTa-based spam message detection system, organizations can greatly enhance their security infrastructure. Our system effectively detects and filters out spam messages, adding an extra layer of security that safeguards organizations against potential financial losses, legal consequences, and reputational harm.
 
 ## Dataset
 The dataset is composed of messages labeled by ham or spam, merged from three data sources:
