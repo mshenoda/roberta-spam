@@ -32,6 +32,7 @@ Loss    |  Accuracy      |  Precision / Recall
 :-------------------------:|:-------------------------:|:-------------------------: 
 ![](plots/train_validation_loss.jpg "Train / Validation Loss") Train / Validation | ![](plots/validation_accuracy.jpg "Validation Accuracy") Validation | ![](plots/validation_precision_recall.jpg "Validation Precision / Recall")  Validation
 
+![](plots/confusion_matrix.png "confusion_matrix")  Confusion Matrix
 
 ## Required Packages
 - numpy
