@@ -17,11 +17,21 @@ Training  80%  |  Validation  10%   |  Testing  10%
 ![](plots/train_set_distribution.jpg "Train / Validation Loss") Class Distribution | ![](plots/val_set_distribution.jpg "Class Distribution") Class Distribution | ![](plots/test_set_distribution.jpg "Class Distribution")  Class Distribution
 
 
+## Model Architecture
+The model is fine tuned RoBERTa base 
 
+roberta-base: https://huggingface.co/roberta-base
 
+paper: https://arxiv.org/abs/1907.11692 
 
-## Architecture
-The model is fine tuned RoBERTa https://arxiv.org/abs/1907.11692 
+my model is hosted at huggingface
+roberta-spam: https://huggingface.co/mshenoda/roberta-spam
+
+## Metrics
+Loss    |  Accuracy      |  Precision / Recall            
+:-------------------------:|:-------------------------:|:-------------------------: 
+![](plots/train_validation_loss.jpg "Train / Validation Loss") Train / Validation | ![](plots/validation_accuracy.jpg "Validation Accuracy") Validation | ![](plots/validation_precision_recall.jpg "Validation Precision / Recall")  Validation
+
 
 ## Required Packages
 - numpy
