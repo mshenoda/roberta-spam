@@ -10,6 +10,15 @@ The dataset is composed of messages labeled by ham or spam, merged from three da
 The prepare script for enron is available at https://github.com/mshenoda/roberta-spam/tree/main/data/enron.
 The data is split 80% train 10% validation, and 10% test sets; the scripts used to split and merge of the three data sources are available at: https://github.com/mshenoda/roberta-spam/tree/main/data/utils.
 
+### Dataset Class Distribution
+
+Training  80%  |  Validation  10%   |  Testing  10%          
+:-------------------------:|:-------------------------:|:-------------------------: 
+![](plots/train_set_distribution.jpg "Train / Validation Loss") Class Distribution | ![](plots/val_set_distribution.jpg "Class Distribution") Class Distribution | ![](plots/test_set_distribution.jpg "Class Distribution")  Class Distribution
+
+
+
+
 
 ## Architecture
 The model is fine tuned RoBERTa https://arxiv.org/abs/1907.11692 
